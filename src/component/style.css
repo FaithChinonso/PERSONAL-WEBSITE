@@ -286,6 +286,7 @@ button {
     font-weight: 700;
     font-size: 30px;
     line-height: 50px;
+    width: auto;
   }
   .description {
     font-weight: 500;
