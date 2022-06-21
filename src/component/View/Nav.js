@@ -42,10 +42,10 @@ const Nav = props => {
         </li>
       </ul>
       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-        <li>
+        <li onClick={handleToggle}>
           <a href="#work">My Work</a>
         </li>
-        <li>
+        <li onClick={handleToggle}>
           <a
             href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
             target="_blank"
@@ -54,7 +54,7 @@ const Nav = props => {
             Resume
           </a>
         </li>
-        <li>
+        <li onClick={handleToggle}>
           <a
             target="_blank"
             rel="noreferrer"

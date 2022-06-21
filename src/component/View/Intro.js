@@ -15,7 +15,7 @@ const Intro = props => {
         target="_blank"
         rel="noreferrer"
         href="mailto:faithuchinonso@gmail.com"
-        className="introLink"
+        className={`${props.dark ? "introLinkDark" : "introLink"}`}
       >
         Send a Mail{" "}
       </a>
