@@ -28,12 +28,41 @@
   display: inline-block;
   font-size: 8px;
   font-weight: 700;
-
+  z-index: 2;
+  opacity: 1;
+  background-color: #f1f1f1;
+  border-radius: 9999px;
+  max-width: 50px;
+  max-height: 50px;
   border: 1px solid #47d16c;
   padding: 8px;
-  top: 25px;
-  left: 50%;
-  transform: translateX(-50%);
+  /* top: 25px;
+  left: 50%; */
+  /* transform: translateX(-50%); */
+  color: #262626;
+  animation: mymove 50s infinite;
+}
+@keyframes mymove {
+  0% {
+    top: 5%;
+    left: 50%;
+  }
+  25% {
+    top: 50%;
+    left: 5%;
+  }
+  50% {
+    top: 90%;
+    left: 50%;
+  }
+  75% {
+    top: 50%;
+    left: 90%;
+  }
+  100% {
+    top: 5%;
+    left: 50%;
+  }
 }
 
 @media (max-width: 900px) {
