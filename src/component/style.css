@@ -10,6 +10,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.navigation-icon {
+  color: #262626;
+  font-size: 1rem;
+}
+.navigation-icon:hover {
+  color: #47d16c;
+  transform: scale(0.7);
+}
 .nav div {
   font-size: 14px;
   line-height: 17px;
@@ -83,7 +91,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 1rem;
+  padding: 1rem 0;
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 14px; */
   background-color: white;
@@ -98,7 +106,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 1rem;
+  padding: 1rem 0;
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 14px; */
   background-color: white;
@@ -161,7 +169,7 @@ button {
 }
 .slider-links:hover {
   text-decoration: underline;
-  color: rgb(7, 7, 175);
+  color: #47d16c;
 }
 
 /* .slide-4 {
@@ -323,7 +331,7 @@ button {
     gap: 20px;
   }
   .proProjectCard {
-    width: 75%;
+    width: 85%;
   }
   .footer div {
     font-size: 12px;
@@ -353,7 +361,10 @@ button {
     gap: 20px;
   }
   .proProjectCard {
-    width: 75%;
+    width: 85%;
+  }
+  .perProjectCard {
+    width: 85%;
   }
 
   .footer {
