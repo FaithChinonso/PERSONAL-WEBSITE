@@ -204,17 +204,6 @@ button {
   text-decoration: none;
 }
 @media (max-width: 900px) {
-  .slide {
-    width: 100%;
-  }
-  .slide-heading {
-    font-size: 1rem;
-  }
-  span {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 600px) {
   .navList {
     display: none;
   }
@@ -251,6 +240,52 @@ button {
     justify-content: center;
     align-items: center;
   }
+  button {
+    display: block;
+  }
+  .slide {
+    width: 100%;
+  }
+  .slide-heading {
+    font-size: 1rem;
+  }
+  span {
+    font-size: 1rem;
+  }
+  .intro {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .introName {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+  }
+  .introDes {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .description {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .text {
+    font-size: 33px;
+  }
+  .projectContainer {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .proProjectCard {
+    width: 75%;
+  }
+}
+@media (max-width: 600px) {
   .slider {
     max-width: 100vw;
     gap: 2rem;
@@ -276,9 +311,7 @@ button {
   .proProjectCard {
     width: 75%;
   }
-  button {
-    display: block;
-  }
+
   .footer {
     flex-direction: column-reverse;
     gap: 20px;
@@ -287,6 +320,30 @@ button {
     display: flex;
     width: 100%;
     justify-content: space-around;
+  }
+  .intro {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .introName {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .introDes {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .text {
+    font-size: 30px;
   }
 }
 
