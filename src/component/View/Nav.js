@@ -24,7 +24,7 @@ const Nav = props => {
         </li>
         <li>
           <a
-            href="https://docs.google.com/document/d/1pI89CILn-fTRyZqMP5_4LgKIM9adpDmN1nYXrJxhVpI/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +47,7 @@ const Nav = props => {
         </li>
         <li>
           <a
-            href="https://docs.google.com/document/d/1pI89CILn-fTRyZqMP5_4LgKIM9adpDmN1nYXrJxhVpI/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
