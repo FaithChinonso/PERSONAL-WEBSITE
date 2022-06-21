@@ -1,20 +1,33 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = props => {
   return (
     <div className="footer">
       <div>Copyright @ 2022 Faith Umunnakwe </div>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/faith-umunnakwe-095905161">
+          <a
+            href="https://www.linkedin.com/in/faith-umunnakwe-095905161"
+            className={`${props.dark ? "footerLinkDark" : "footerLink"}`}
+          >
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://github.com/FaithChinonso">Github</a>
+          <a
+            href="https://github.com/FaithChinonso"
+            className={`${props.dark ? "footerLinkDark" : "footerLink"}`}
+          >
+            Github
+          </a>
         </li>
         <li>
-          <a href="https://codepen.io/faithchinonso">Codepen</a>
+          <a
+            href="https://codepen.io/faithchinonso"
+            className={`${props.dark ? "footerLinkDark" : "footerLink"}`}
+          >
+            Codepen
+          </a>
         </li>
       </ul>
     </div>

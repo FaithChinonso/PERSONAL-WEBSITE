@@ -3,7 +3,7 @@ import linx from "../../img/linx.png";
 import cooper from "../../img/cooper.png";
 import Card from "../Helper/Card";
 import "../style.css";
-const ProfessionalProjects = () => {
+const ProfessionalProjects = props => {
   const projects = [
     {
       name: "Linx Platform",
@@ -25,7 +25,11 @@ const ProfessionalProjects = () => {
       <div className="text">Some select work</div>
       <div className="projectContainer">
         {projects.map(pro => (
-          <div className="proProjectCard">
+          <div
+            className={`${
+              props.dark ? "proProjectCardDark" : "proProjectCard"
+            }`}
+          >
             <img src={pro.img} className="projectImage" />
             <div className="flex">
               <div className="title">{pro.name}</div>

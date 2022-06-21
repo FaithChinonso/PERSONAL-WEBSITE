@@ -18,12 +18,16 @@ const Nav = props => {
           <FontAwesomeIcon icon={faBars} className="navigation-icon" />
         )}
       </button>
-      <ul className="navList">
+      <ul className={`${props.dark ? "navListDark" : "navList"}`}>
         <li>
           <a href="#work">My Work</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1m-6rlBcB0Z7TBOKkwiHIjN6tM5QQX_fx/view?usp=sharing">
+          <a
+            href="https://docs.google.com/document/u/0/d/1Fqr-OfRtTHQCbec9SYK9qNnDqbvdnWY06RcFkqupK_g/mobilebasic"
+            target="_blank"
+            rel="noreferrer"
+          >
             Resume
           </a>
         </li>
@@ -38,13 +42,19 @@ const Nav = props => {
         </li>
       </ul>
       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-        <li onClick={handleToggle}>
+        <li>
           <a href="#work">My Work</a>
         </li>
-        <li onClick={handleToggle}>
-          <a href="#work">Resume</a>
+        <li>
+          <a
+            href="https://docs.google.com/document/u/0/d/1Fqr-OfRtTHQCbec9SYK9qNnDqbvdnWY06RcFkqupK_g/mobilebasic"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </li>
-        <li onClick={handleToggle}>
+        <li>
           <a
             target="_blank"
             rel="noreferrer"
