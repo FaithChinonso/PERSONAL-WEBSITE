@@ -61,6 +61,12 @@
   line-height: 19px;
   text-decoration: none;
 }
+.navList li a:hover {
+  color: #47d16c;
+}
+.navListDark li a:hover {
+  color: #47d16c;
+}
 .menuNav {
   display: none;
 }
@@ -291,6 +297,12 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+}
+.footerLink:hover {
+  color: #47d16c;
+}
+.footerLinkDark:hover {
+  color: #47d16c;
 }
 
 @media (max-width: 900px) {
