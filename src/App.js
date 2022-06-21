@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useState } from "react";
+import Nav from "./component/View/Nav";
+import Intro from "./component/View/Intro";
+import PersonalProjects from "./component/View/PersonalProject";
+import ProfessionalProjects from "./component/View/ProfessionalProjects";
+import Footer from "./component/View/Footer";
 
 function App() {
+  const [dark, setDark] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`${dark ? "appDark" : "app"}`}>
+      <Nav />
+      <Intro />
+      <ProfessionalProjects />
+      <PersonalProjects />
+      <Footer />
     </div>
   );
 }
