@@ -23,7 +23,9 @@ const Nav = props => {
           <a href="#work">My Work</a>
         </li>
         <li>
-          <a href="#work">Resume</a>
+          <a href="https://drive.google.com/file/d/1m-6rlBcB0Z7TBOKkwiHIjN6tM5QQX_fx/view?usp=sharing">
+            Resume
+          </a>
         </li>
         <li>
           <a

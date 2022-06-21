@@ -284,6 +284,9 @@ button {
   .proProjectCard {
     width: 75%;
   }
+  .footer div {
+    font-size: 12px;
+  }
 }
 @media (max-width: 600px) {
   .slider {
