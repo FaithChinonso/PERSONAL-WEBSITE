@@ -27,20 +27,22 @@ const ProfessionalProjects = () => {
         {projects.map(pro => (
           <div className="proProjectCard">
             <img src={pro.img} className="projectImage" />
-            <div className="title">{pro.name}</div>
-            <div className="description">{pro.des}</div>
-            {pro.link === "" ? (
-              <div className="link">Coming Soon</div>
-            ) : (
-              <a
-                href={pro.link}
-                target="_blank"
-                rel="noreferrer"
-                className="link"
-              >
-                Visit Link{" "}
-              </a>
-            )}
+            <div className="flex">
+              <div className="title">{pro.name}</div>
+              <div className="description">{pro.des}</div>
+              {pro.link === "" ? (
+                <div className="link">Coming Soon</div>
+              ) : (
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link"
+                >
+                  Visit Link{" "}
+                </a>
+              )}
+            </div>
           </div>
         ))}
       </div>

@@ -6,11 +6,13 @@ import Intro from "./component/View/Intro";
 import PersonalProjects from "./component/View/PersonalProject";
 import ProfessionalProjects from "./component/View/ProfessionalProjects";
 import Footer from "./component/View/Footer";
+import vector from "../src/img/Vector.jpg";
 
 function App() {
   const [dark, setDark] = useState(false);
   return (
     <div className={`${dark ? "appDark" : "app"}`}>
+      <img src={vector} className="backdrop" />
       <Nav />
       <Intro />
       <ProfessionalProjects />

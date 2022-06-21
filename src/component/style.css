@@ -41,6 +41,9 @@ button {
 }
 .intro {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .introName {
   font-weight: 700;
@@ -51,6 +54,7 @@ button {
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
+  width: 1101px;
 }
 .description {
   font-weight: 500;
@@ -74,13 +78,13 @@ button {
 }
 .proProjectCard {
   width: 560px;
-  height: 600px;
+  height: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px; */
   background-color: white;
 }
 .perProjectCard {
@@ -92,12 +96,18 @@ button {
   justify-content: center;
   gap: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px; */
   background-color: white;
 }
 .projectImage {
   height: 298px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  gap: 24px;
 }
 .title {
   font-weight: 600;
@@ -109,6 +119,7 @@ button {
   font-size: 48px;
   line-height: 58px;
   width: 293px;
+  margin-bottom: 40px;
 }
 .link {
   font-weight: 600;
@@ -187,9 +198,14 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #262626;
+  border-top: 1px solid #000000;
   padding-top: 10px;
   margin-top: 40px;
+}
+.footer div {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
 }
 .footer ul {
   display: flex;
@@ -202,6 +218,9 @@ button {
 .footer ul li a {
   color: #262626;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 }
 @media (max-width: 900px) {
   .navList {
