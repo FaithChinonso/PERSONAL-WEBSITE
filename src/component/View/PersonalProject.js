@@ -37,7 +37,7 @@ const PersonalProjects = () => {
       des: " HTML,CSS, JAVASCRIPT AND React",
       id: "4",
       img: foodorderapp,
-      link: "https://faithchinonso.github.io/FOOD-ORDER-APP/",
+      link: "https://faithchinonso.github.io/FOOD-ORDER-APP",
       github: "https://github.com/FaithChinonso/FOOD-ORDER-APP",
     },
   ];
