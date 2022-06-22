@@ -4,6 +4,8 @@
   "homepage": " https://faithchinonso.github.io/PERSONAL-WEBSITE",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
