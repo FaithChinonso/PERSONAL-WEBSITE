@@ -1,7 +1,6 @@
 import React from "react";
 import linx from "../../img/linx.png";
 import cooper from "../../img/cooper.png";
-import Card from "../Helper/Card";
 import "../style.css";
 const ProfessionalProjects = props => {
   const projects = [
