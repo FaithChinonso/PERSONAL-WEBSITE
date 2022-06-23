@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./view.css";
 
 const Intro = props => {
   return (
