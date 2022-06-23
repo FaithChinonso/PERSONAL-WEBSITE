@@ -1,7 +1,7 @@
 import React from "react";
 import linx from "../../img/linx.png";
 import cooper from "../../img/cooper.png";
-import "./style.css";
+// import "./style.css";
 const ProfessionalProjects = props => {
   const projects = [
     {
