@@ -3,7 +3,7 @@ import expense from "../../img/expensetracker.png";
 import foodorderapp from "../../img/foodorder.png";
 import justdoit from "../../img/justdoitt.png";
 import shopfay from "../../img/shopfayy.png";
-import "./view.css";
+import "./style.module.css";
 
 // import "./style.css";
 
