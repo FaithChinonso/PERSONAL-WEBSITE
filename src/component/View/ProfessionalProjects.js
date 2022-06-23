@@ -2,7 +2,7 @@ import React from "react";
 import linx from "../../img/linx.png";
 import cooper from "../../img/cooper.png";
 // import "./style.css";
-import "./style.module.css";
+// import "./style.module.css";
 const ProfessionalProjects = props => {
   const projects = [
     {
@@ -24,7 +24,7 @@ const ProfessionalProjects = props => {
     <div className="proProjects">
       <div className="text">Some select work</div>
       <div className="projectContainer">
-        {projects.map(pro => (
+        {projects?.map(pro => (
           <div
             className={`${
               props.dark ? "proProjectCardDark" : "proProjectCard"

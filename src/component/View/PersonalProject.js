@@ -3,7 +3,7 @@ import expense from "../../img/expensetracker.png";
 import foodorderapp from "../../img/foodorder.png";
 import justdoit from "../../img/justdoitt.png";
 import shopfay from "../../img/shopfayy.png";
-import "./style.module.css";
+// import "./style.module.css";
 
 // import "./style.css";
 
@@ -46,7 +46,7 @@ const PersonalProjects = () => {
     <div className="proProjects" id="work">
       <div className="text">I have also done these</div>
       <div className="projectContainer">
-        {projects.map(pro => (
+        {projects?.map(pro => (
           <div className="perProjectCard">
             <figure className="slide-figure">
               <img src={pro.img} alt={pro.name} className="slide-img" />
