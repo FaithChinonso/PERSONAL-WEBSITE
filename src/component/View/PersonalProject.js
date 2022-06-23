@@ -48,11 +48,7 @@ const PersonalProjects = () => {
         {projects.map(pro => (
           <div className="perProjectCard">
             <figure className="slide-figure">
-              <img
-                src={process.env.PUBLIC_URL + pro.img}
-                alt={pro.name}
-                className="slide-img"
-              />
+              <img src={pro.img} alt={pro.name} className="slide-img" />
 
               <figcaption className="slide-caption">
                 <h3 className="slide-heading">{pro.name}</h3>

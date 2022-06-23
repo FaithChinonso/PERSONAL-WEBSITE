@@ -26,7 +26,7 @@ const Nav = props => {
           <a
             href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
             target="_blank"
-            rel="noreferrer"
+           
           >
             Resume
           </a>
