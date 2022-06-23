@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style.css";
+// import "../style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -26,7 +26,6 @@ const Nav = props => {
           <a
             href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
             target="_blank"
-           
           >
             Resume
           </a>
