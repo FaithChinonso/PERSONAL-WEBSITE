@@ -33,7 +33,7 @@ const ProfessionalProjects = props => {
             <img src={pro.img} className="projectImage" />
             <div className="flex">
               <div className="title">{pro.name}</div>
-              <div className="description">{pro.des}</div>
+              <div className="descriptionn">{pro.des}</div>
               {pro.link === "" ? (
                 <div className="link">Coming Soon</div>
               ) : (
