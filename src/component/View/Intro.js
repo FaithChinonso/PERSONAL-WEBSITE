@@ -9,8 +9,8 @@ const Intro = props => {
         A purpose-driven front-end developer based in Lagos, Nigeria.
       </div>
       <div className="description">
-        Currently looking for junior-level work, preferably in Lagos, or remotly
-        in any part of the world.
+        Currently looking for junior-level work, preferably in Lagos, or
+        remotely in any part of the world.
       </div>
       <a
         target="_blank"
