@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": " https://faithchinonso.github.io/PERSONAL-WEBSITE/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.18.5",
