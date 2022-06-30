@@ -44,7 +44,7 @@ const PersonalProjects = () => {
   ];
   return (
     <div className="proProjects" id="work">
-      <div className="text">I have also done these</div>
+      <div className="text">Personal Projects</div>
       <div className="projectContainer">
         {projects?.map(pro => (
           <div className="perProjectCard">

@@ -7,14 +7,14 @@ const ProfessionalProjects = props => {
   const projects = [
     {
       name: "Linx Platform",
-      des: "Manage your business operations and finances with ease",
+      des: " Built the landing page and other associated pages using React. Ensured the whole platform is responsive on all screen size",
       id: "1",
       img: linx,
       link: "https://linxplatform.com/",
     },
     {
       name: "Cooper",
-      des: "Create and manage cooperatives and assign task",
+      des: "Building the frontend part of the entire platform using React",
       id: "2",
       img: cooper,
       link: "",
@@ -22,7 +22,7 @@ const ProfessionalProjects = props => {
   ];
   return (
     <div className="proProjects">
-      <div className="text">Some select work</div>
+      <div className="text">Professional Projects</div>
       <div className="projectContainer">
         {projects?.map(pro => (
           <div
