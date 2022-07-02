@@ -207,10 +207,9 @@ button {
   line-height: 48px;
 }
 .slide-text {
-  font-size: 32px;
+  font-size: 12px;
   line-height: 18px;
   text-align: center;
-  display: none;
 }
 .slider-buttons {
   display: flex;

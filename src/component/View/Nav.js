@@ -21,7 +21,10 @@ const Nav = props => {
       </button>
       <ul className={`${props.dark ? "navListDark" : "navList"}`}>
         <li>
-          <a href="#work">My Work</a>
+          <a href="#work">My Personal Projects</a>
+        </li>
+        <li>
+          <a href="#pwork">My Professional Projects</a>
         </li>
         <li>
           <a
@@ -42,12 +45,17 @@ const Nav = props => {
         </li>
       </ul>
       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+        <li>
+          <a href="#work" onClick={handleToggle}>
+            My Personal Projects
+          </a>
+        </li>
         <li onClick={handleToggle}>
-          <a href="#work">My Work</a>
+          <a href="#pwork">My Professional Projects</a>
         </li>
         <li onClick={handleToggle}>
           <a
-            href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cfNtQDyawyL6YkPK1HW4A8JPIytI3ipy/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

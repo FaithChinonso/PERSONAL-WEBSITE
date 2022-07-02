@@ -19,9 +19,16 @@ const ProfessionalProjects = props => {
       img: cooper,
       link: "",
     },
+    {
+      name: "Radeus Website",
+      des: "Building the new Radeus official website using react and tailwind css",
+      id: "2",
+      img: null,
+      link: "",
+    },
   ];
   return (
-    <div className="proProjects">
+    <div className="proProjects" id="pwork">
       <div className="text">Professional Projects</div>
       <div className="projectContainer">
         {projects?.map(pro => (
