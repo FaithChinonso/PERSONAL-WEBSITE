@@ -128,7 +128,7 @@ button {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 20px;
 }
 .proProjectContainer {
   display: flex;
@@ -446,7 +446,7 @@ button {
 
   .footer {
     flex-direction: column-reverse;
-    gap: 20px;
+    align-items: center;
   }
   .footer ul {
     display: flex;

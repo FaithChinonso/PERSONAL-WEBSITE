@@ -21,11 +21,9 @@ const Nav = props => {
       </button>
       <ul className={`${props.dark ? "navListDark" : "navList"}`}>
         <li>
-          <a href="#work">My Personal Projects</a>
+          <a href="#work">My Work</a>
         </li>
-        <li>
-          <a href="#pwork">My Professional Projects</a>
-        </li>
+
         <li>
           <a
             href="https://drive.google.com/file/d/1JJ_eeUvUIDds11FdW6BMRl2s800X2muG/view?usp=sharing"
