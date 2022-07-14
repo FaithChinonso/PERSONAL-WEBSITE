@@ -1,6 +1,7 @@
 import React from "react";
-import linx from "../../img/linx.png";
-import cooper from "../../img/cooper.png";
+import linx from "../../img/linxp.png";
+import cooper from "../../img/cooperc.png";
+import radeus from "../../img/radeus.png";
 // import "./style.css";
 // import "./style.module.css";
 const ProfessionalProjects = props => {
@@ -23,7 +24,7 @@ const ProfessionalProjects = props => {
       name: "Radeus Website",
       des: "Building the new Radeus official website using react and tailwind css",
       id: "2",
-      img: null,
+      img: radeus,
       link: "",
     },
   ];

@@ -113,12 +113,20 @@ button {
   font-size: 24px;
   line-height: 48px;
   color: #262626;
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 2px solid #262626;
+  width: 130px;
 }
 .introLinkDark {
   font-weight: 600;
   font-size: 24px;
   line-height: 48px;
   color: #e4dede;
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 2px solid #e4dede;
+  width: 130px;
 }
 .proProjects {
   margin-top: 100px;
@@ -198,6 +206,7 @@ button {
   font-size: 20px;
   line-height: 48px;
   color: #262626;
+  text-decoration: none;
 }
 
 .slide-heading {
