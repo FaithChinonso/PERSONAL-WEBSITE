@@ -31,14 +31,17 @@ const ProfessionalProjects = props => {
   return (
     <div className="proProjects" id="pwork">
       <div className="text">Professional Projects</div>
-      <div className="projectContainer">
+      <div className="proProjectContainer">
         {projects?.map(pro => (
           <div
             className={`${
               props.dark ? "proProjectCardDark" : "proProjectCard"
             }`}
           >
-            <img src={pro.img} className="projectImage" />
+            <div className="projectImageDiv">
+              <img src={pro.img} className="projectImage" />
+            </div>
+
             <div className="flex">
               <div className="title">{pro.name}</div>
               <div className="descriptionn">{pro.des}</div>

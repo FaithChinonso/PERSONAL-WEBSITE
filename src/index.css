@@ -33,12 +33,12 @@ code {
 .navList {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  gap: 33px;
 }
 .navListDark {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  gap: 33px;
 }
 
 .navList li {
@@ -81,11 +81,14 @@ button {
   display: none;
 }
 .intro {
-  margin-top: 100px;
+  position: relative;
+  margin-top: 171px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: visible;
 }
+
 .introName {
   font-weight: 700;
   font-size: 16px;
@@ -129,29 +132,29 @@ button {
   width: 130px;
 }
 .proProjects {
-  margin-top: 100px;
+  margin-top: 104px;
+  z-index: 1;
+}
+.proProjectContainer {
+  display: grid;
+
+  grid-template-columns: auto auto;
+
+  gap: 40px;
 }
 .projectContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
-}
-.proProjectContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2px;
+  gap: 24px;
 }
 .proProjectCard {
   width: 560px;
   height: 660px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 1rem 0;
+  gap: 2px;
 
   background-color: white;
 }
@@ -161,7 +164,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 1rem 0;
 
   background-color: #e4dede;
 }
@@ -175,11 +177,16 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 1rem 0;
 
   background-color: white;
 }
 .projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectImageDiv {
+  width: 100%;
   height: 298px;
 }
 .flex {
@@ -246,12 +253,17 @@ button {
   width: 100%;
   height: 100%;
 }
+.slide-img-div {
+  width: 100%;
+  height: 100%;
+}
 .slide-img {
   display: block;
   width: 100%;
   height: 100%;
   opacity: 1;
   transition: all 0.5s;
+  object-fit: cover;
 }
 
 .slide-figure:hover .slide-img {
@@ -301,7 +313,7 @@ button {
 }
 .footer ul {
   display: flex;
-  width: 40%;
+  gap: 33px;
   justify-content: space-around;
 }
 .footer ul li {
@@ -327,7 +339,16 @@ button {
 .footerLinkDark:hover {
   color: #47d16c;
 }
-
+@media (min-width: 1440px) {
+  .nav,
+  .intro,
+  .proProjects,
+  .footer {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (max-width: 900px) {
   .navList {
     display: none;
@@ -402,6 +423,12 @@ button {
   }
   .text {
     font-size: 33px;
+  }
+  .proProjectContainer {
+    display: grid;
+    grid-template-columns: auto;
+
+    gap: 40px;
   }
   .projectContainer {
     align-items: center;
@@ -488,6 +515,7 @@ button {
   }
   .projectImage {
     /* transform: scale(0.85); */
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
   }

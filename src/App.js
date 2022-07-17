@@ -5,7 +5,7 @@ import Intro from "./component/View/Intro";
 import PersonalProjects from "./component/View/PersonalProject";
 import ProfessionalProjects from "./component/View/ProfessionalProjects";
 import Footer from "./component/View/Footer";
-import vector from "../src/img/backdrop.svg";
+import vector from "../src/img/newBack.svg";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -14,10 +14,11 @@ function App() {
   };
   return (
     <div className={`${dark ? "appDark" : "app"}`}>
+       <img src={vector} className="backdrop" />
       <div onClick={switchmodeHandler} className="switch">
         Switch Mode
       </div>
-      {!dark && <img src={vector} className="backdrop" />}
+      
 
       <Nav dark={dark} />
       <Intro dark={dark} />

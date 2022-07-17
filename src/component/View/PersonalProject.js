@@ -49,7 +49,9 @@ const PersonalProjects = () => {
         {projects?.map(pro => (
           <div className="perProjectCard">
             <figure className="slide-figure">
-              <img src={pro.img} alt={pro.name} className="slide-img" />
+              <div className="slide-img-div">
+                <img src={pro.img} alt={pro.name} className="slide-img" />
+              </div>
 
               <figcaption className="slide-caption">
                 <h3 className="slide-heading">{pro.name}</h3>
