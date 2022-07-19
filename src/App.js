@@ -14,12 +14,13 @@ function App() {
   };
   return (
     <div className={`${dark ? "appDark" : "app"}`}>
-       <img src={vector} className="backdrop" />
+      <div>
+        <img src={vector} className="backdrop" />
+      </div>
+
       <div onClick={switchmodeHandler} className="switch">
         Switch Mode
       </div>
-      
-
       <Nav dark={dark} />
       <Intro dark={dark} />
       <ProfessionalProjects dark={dark} />

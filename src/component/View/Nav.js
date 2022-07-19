@@ -10,9 +10,14 @@ const Nav = props => {
     setNavbarOpen(prev => !prev);
   };
   return (
-    <div className="nav">
+    <div
+      className="nav"
+      onClick={() => {
+        console.log("uuu");
+      }}
+    >
       <div>Faith Umunnakwe</div>
-      <button onClick={handleToggle}>
+      <button onClick={() => handleToggle()}>
         {navbarOpen ? (
           <FontAwesomeIcon icon={faTimes} className="navigation-icon" />
         ) : (

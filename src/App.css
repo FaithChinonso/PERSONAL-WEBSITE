@@ -3,7 +3,7 @@
   background-color: #f1f1f1;
   padding: 20px 104px;
   margin: 0;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
 }
 
@@ -11,13 +11,13 @@
   color: #e4dede;
   background-color: #262626;
   padding: 20px 104px;
-  position: relative;
+  /* position: relative; */
   margin: 0;
   overflow: hidden;
 }
 .backdrop {
   position: absolute;
-  top: 0px;
+  top: 50px;
   right: 0;
 }
 
