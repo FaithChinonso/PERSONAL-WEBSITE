@@ -2,13 +2,15 @@ import React from "react";
 import linx from "../../img/linxp.png";
 import cooper from "../../img/cooperc.png";
 import radeus from "../../img/radeus.png";
+import riby from "../../img/riby.png";
+
 // import "./style.css";
 // import "./style.module.css";
 const ProfessionalProjects = props => {
   const projects = [
     {
       name: "Linx Platform",
-      des: " Built the landing page and other associated pages using React. Ensured the whole platform is responsive on all screen size",
+      des: " Built the landing page and other associated pages using React, typescript and SASS. Ensured the whole platform is responsive on all screen size",
       id: "1",
       img: linx,
       link: "https://linxplatform.com/",
@@ -22,9 +24,16 @@ const ProfessionalProjects = props => {
     },
     {
       name: "Radeus Website",
-      des: "Building the new Radeus official website using react and tailwind css",
+      des: "Building the new Radeus official website using React and tailwind css",
       id: "2",
       img: radeus,
+      link: "",
+    },
+    {
+      name: "Riby Website",
+      des: "Building the new Riby Inc official website using React, Next,js and tailwind css",
+      id: "2",
+      img: riby,
       link: "",
     },
   ];

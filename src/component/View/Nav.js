@@ -31,7 +31,7 @@ const Nav = props => {
 
         <li>
           <a
-            href="https://drive.google.com/file/d/1GrQGsvRVVHsS0jmYu5DGdHi7X4CSHIsZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FTdkmESfvoaWMBmBE4RiO_O9RjW2bNBP/view?usp=sharing"
             target="_blank"
           >
             Resume
@@ -58,7 +58,7 @@ const Nav = props => {
         </li>
         <li onClick={handleToggle}>
           <a
-            href="https://drive.google.com/file/d/1GrQGsvRVVHsS0jmYu5DGdHi7X4CSHIsZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FTdkmESfvoaWMBmBE4RiO_O9RjW2bNBP/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
