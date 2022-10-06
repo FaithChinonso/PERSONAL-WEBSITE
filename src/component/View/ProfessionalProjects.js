@@ -34,7 +34,7 @@ const ProfessionalProjects = props => {
       des: "Building the new Riby Inc official website using React, Next,js and tailwind css",
       id: "2",
       img: riby,
-      link: "",
+      link: "https://ribyinc.com/",
     },
   ];
   return (
