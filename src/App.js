@@ -8,7 +8,7 @@ import Footer from "./component/View/Footer";
 import vector from "../src/img/newBack.svg";
 
 function App() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
   const switchmodeHandler = () => {
     setDark(prev => !prev);
   };

@@ -7,11 +7,10 @@ const Intro = props => {
     <div className="intro">
       <div className="introName">Hello, I'm Faith</div>
       <div className="introDes">
-        A purpose-driven front-end developer based in Lagos, Nigeria.
+        A frontend developer with experience in React and React Native.
       </div>
       <div className="description">
-        Currently looking to work on projects, preferably in Lagos, or remotely
-        in any part of the world.
+        I write high-quality, scalable and maintainable codes need
       </div>
       <a
         target="_blank"
