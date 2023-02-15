@@ -10,7 +10,7 @@ const Intro = props => {
         A frontend developer with experience in React and React Native.
       </div>
       <div className="description">
-        I write high-quality, scalable and maintainable codes need
+        I write high-quality, scalable and maintainable codes
       </div>
       <a
         target="_blank"
