@@ -24,7 +24,7 @@ function App() {
       <Nav dark={dark} />
       <Intro dark={dark} />
       <ProfessionalProjects dark={dark} />
-      <PersonalProjects dark={dark} />
+   
       <Footer dark={dark} />
     </div>
   );

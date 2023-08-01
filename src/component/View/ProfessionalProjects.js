@@ -1,6 +1,8 @@
 import React from "react";
 import linx from "../../img/linxp.png";
-import cooper from "../../img/cooperc.png";
+import driver from "../../img/Driver.png";
+import fleet from "../../img/FleetManager.png";
+import admin from "../../img/admin.png";
 import radeus from "../../img/radeus.png";
 import riby from "../../img/riby.png";
 import digits from "../../img/digit.png";
@@ -17,11 +19,25 @@ const ProfessionalProjects = props => {
       link: "https://linxplatform.com/",
     },
     {
-      name: "Radeus Website",
-      des: "Built the new Radeus official website using React and tailwind css",
+      name: "ITranxit Driver",
+      des: "Built the Tranxit Driver using  React,Next,js,Typescript,Firebase and SCSS",
       id: "3",
-      img: radeus,
-      link: "https://dev.radeusbusiness.com/",
+      img: driver,
+      link: " https://driver.itranxit.com/",
+    },
+    {
+      name: "ITranxit Vendors Dashboard",
+      des: "Built the  Tranxit Vendors dashboard using React,Next,js,Typescript,Firebase and SCSS",
+      id: "3",
+      img: fleet,
+      link: "https://fleet-itranxit.vercel.app/",
+    },
+    {
+      name: "iTranxit Admin Dashboard",
+      des: "Built the iTranxit Admin using React and tailwind css",
+      id: "32",
+      img: admin,
+      link: "",
     },
     {
       name: "Riby Website",
@@ -39,8 +55,8 @@ const ProfessionalProjects = props => {
     },
   ];
   return (
-    <div className="proProjects" id="pwork">
-      <div className="text">Professional Projects</div>
+    <div className="proProjects" id="work">
+      <div className="text"> Projects</div>
       <div className="proProjectContainer">
         {projects?.map(pro => (
           <div

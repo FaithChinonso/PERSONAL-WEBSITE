@@ -31,7 +31,7 @@ const Nav = props => {
 
         <li>
           <a
-            href="https://docs.google.com/document/d/1Fqr-OfRtTHQCbec9SYK9qNnDqbvdnWY06RcFkqupK_g/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Y1IKYgXyP1NIM_OrWM5EZBZQvjoqhdaMvSvYUENzRBM/edit?usp=sharing"
             target="_blank"
           >
             Resume
@@ -48,17 +48,12 @@ const Nav = props => {
         </li>
       </ul>
       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-        <li>
-          <a href="#work" onClick={handleToggle}>
-            My Personal Projects
-          </a>
-        </li>
         <li onClick={handleToggle}>
-          <a href="#pwork">My Professional Projects</a>
+          <a href="#pwork">Projects</a>
         </li>
         <li onClick={handleToggle}>
           <a
-            href="https://docs.google.com/document/d/1Fqr-OfRtTHQCbec9SYK9qNnDqbvdnWY06RcFkqupK_g/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Y1IKYgXyP1NIM_OrWM5EZBZQvjoqhdaMvSvYUENzRBM/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
