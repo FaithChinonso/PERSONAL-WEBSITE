@@ -12,6 +12,20 @@ import digits from "../../img/digit.png";
 const ProfessionalProjects = props => {
   const projects = [
     {
+      name: "Cue Driver",
+      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
+      id: "4",
+      img: driverr,
+      link: "https://apps.apple.com/ng/app/cue-driver/id6446055971",
+    },
+    {
+      name: "Cue Rider",
+      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
+      id: "5",
+      img: rider,
+      link: "https://apps.apple.com/us/app/cue-rider/id6446066197",
+    },
+    {
       name: "Linx Platform",
       des: "Linx offers business owners a full range of operations and marketing services to help reach more customers, improve efficiency, and increase revenue",
       id: "1",
@@ -38,20 +52,6 @@ const ProfessionalProjects = props => {
       id: "32",
       img: digits,
       link: "",
-    },
-    {
-      name: "Cue Driver",
-      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
-      id: "4",
-      img: driverr,
-      link: "https://apps.apple.com/ng/app/cue-driver/id6446055971",
-    },
-    {
-      name: "Cue Rider",
-      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
-      id: "5",
-      img: rider,
-      link: "https://apps.apple.com/us/app/cue-rider/id6446066197",
     },
   ];
   return (
