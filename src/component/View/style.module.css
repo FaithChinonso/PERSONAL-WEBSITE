@@ -88,6 +88,7 @@ button {
   font-size: 24px;
   line-height: 48px;
   color: #262626;
+  background: #000;
 }
 .introLink {
   font-weight: 600;
@@ -103,7 +104,6 @@ button {
 }
 .proProjects {
   margin-top: 100px;
-  
 }
 .projectContainer {
   display: flex;

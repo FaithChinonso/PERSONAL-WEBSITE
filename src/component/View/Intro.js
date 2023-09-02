@@ -5,7 +5,7 @@ import vector from "../../img/newBack.svg";
 const Intro = props => {
   return (
     <div className="intro">
-      <div className="introName">Hello, I'm Faith</div>
+      <div className="introName">Hello, I'm Faith,</div>
       <div className="introDes">
         A frontend developer with experience in React and React Native.
       </div>

@@ -2,8 +2,8 @@ import React from "react";
 import linx from "../../img/linxp.png";
 import driver from "../../img/Driver.png";
 import fleet from "../../img/FleetManager.png";
-import admin from "../../img/admin.png";
-import radeus from "../../img/radeus.png";
+import rider from "../../img/cueRIder.png";
+import driverr from "../../img/cueDriver.png";
 import riby from "../../img/riby.png";
 import digits from "../../img/digit.png";
 
@@ -13,45 +13,45 @@ const ProfessionalProjects = props => {
   const projects = [
     {
       name: "Linx Platform",
-      des: " Was a core member of the team that built the landing page and the service provider feature using React, Typescript and SASS.",
+      des: "Linx offers business owners a full range of operations and marketing services to help reach more customers, improve efficiency, and increase revenue",
       id: "1",
       img: linx,
       link: "https://linxplatform.com/",
     },
     {
       name: "ITranxit Driver",
-      des: "Built the Tranxit Driver using  React,Next,js,Typescript,Firebase and SCSS",
+      des: "The platform offers tailored logistics solutions to meet diverse business needs. Whether it is last-mile delivery, or warehousing,  Itranxit offers flexible options that align with specific requirements",
       id: "3",
       img: driver,
       link: " https://driver.itranxit.com/",
     },
     {
       name: "ITranxit Vendors Dashboard",
-      des: "Built the  Tranxit Vendors dashboard using React,Next,js,Typescript,Firebase and SCSS",
+      des: "The platform offers tailored logistics solutions to meet diverse business needs. Whether it is last-mile delivery, or warehousing,  Itranxit offers flexible options that align with specific requirementsS",
       id: "3",
       img: fleet,
       link: "https://fleet-itranxit.vercel.app/",
     },
     {
-      name: "iTranxit Admin Dashboard",
-      des: "Built the iTranxit Admin using React and tailwind css",
-      id: "32",
-      img: admin,
-      link: "",
-    },
-    {
-      name: "Riby Website",
-      des: "Built the new Riby Inc official website using React, Next,js and tailwind css",
-      id: "4",
-      img: riby,
-      link: "https://ribyinc.com/",
-    },
-    {
       name: "Digits Admin",
-      des: "Building the admin platform of an e-commerce website using React, Next,js and tailwind css",
-      id: "5",
+      des: "This is an administrative platform that serves as the backend system for both Flip, an e-commerce website, and Cue, a ride-hailing app. This platform is responsible for overseeing and managing a wide range of activities, including user administration, product and service management, order tracking, ride monitoring, driver oversight, and global settings.",
+      id: "32",
       img: digits,
       link: "",
+    },
+    {
+      name: "Cue Driver",
+      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
+      id: "4",
+      img: driverr,
+      link: "https://apps.apple.com/ng/app/cue-driver/id6446055971",
+    },
+    {
+      name: "Cue Rider",
+      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
+      id: "5",
+      img: rider,
+      link: "https://apps.apple.com/us/app/cue-rider/id6446066197",
     },
   ];
   return (
@@ -72,7 +72,7 @@ const ProfessionalProjects = props => {
               <div className="title">{pro.name}</div>
               <div className="descriptionn">{pro.des}</div>
               {pro.link === "" ? (
-                <div className="link">Coming Soon</div>
+                <div className="link coming-soon ">Coming Soon</div>
               ) : (
                 <a
                   href={pro.link}
