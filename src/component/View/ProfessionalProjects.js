@@ -4,7 +4,7 @@ import driver from "../../img/Driver.png";
 import fleet from "../../img/FleetManager.png";
 import rider from "../../img/cueRIder.png";
 import driverr from "../../img/cueDriver.png";
-import riby from "../../img/riby.png";
+import { Flip } from "react-reveal";
 import digits from "../../img/digit.png";
 
 // import "./style.css";
@@ -59,32 +59,34 @@ const ProfessionalProjects = props => {
       <div className="text"> Projects</div>
       <div className="proProjectContainer">
         {projects?.map(pro => (
-          <div
-            className={`${
-              props.dark ? "proProjectCardDark" : "proProjectCard"
-            }`}
-          >
-            <div className="projectImageDiv">
-              <img src={pro.img} className="projectImage" />
-            </div>
+          <Flip bottom>
+            <div
+              className={`${
+                props.dark ? "proProjectCardDark" : "proProjectCard"
+              }`}
+            >
+              <div className="projectImageDiv">
+                <img src={pro.img} className="projectImage" />
+              </div>
 
-            <div className="flex">
-              <div className="title">{pro.name}</div>
-              <div className="descriptionn">{pro.des}</div>
-              {pro.link === "" ? (
-                <div className="link coming-soon ">Coming Soon</div>
-              ) : (
-                <a
-                  href={pro.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link"
-                >
-                  Visit Link{" "}
-                </a>
-              )}
+              <div className="flex">
+                <div className="title">{pro.name}</div>
+                <div className="descriptionn">{pro.des}</div>
+                {pro.link === "" ? (
+                  <div className="link coming-soon ">Coming Soon</div>
+                ) : (
+                  <a
+                    href={pro.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link"
+                  >
+                    Visit Link{" "}
+                  </a>
+                )}
+              </div>
             </div>
-          </div>
+          </Flip>
         ))}
       </div>
     </div>
