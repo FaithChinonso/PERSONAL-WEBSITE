@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import Nav from "./component/View/Nav";
 import Intro from "./component/View/Intro";
-import PersonalProjects from "./component/View/PersonalProject";
 import ProfessionalProjects from "./component/View/ProfessionalProjects";
 import Footer from "./component/View/Footer";
 import vector from "../src/img/newBack.svg";
@@ -13,12 +12,12 @@ import { faBolt, faMoon } from "@fortawesome/free-solid-svg-icons";
 function App() {
   const [dark, setDark] = useState(true);
   const switchmodeHandler = () => {
-    setDark(prev => !prev);
+    setDark((prev) => !prev);
   };
   return (
     <div className={`${dark ? "appDark" : "app"}`}>
       <div>
-        <img src={vector} className="backdrop" />
+        <img src={vector} className="backdrop" alt="backdrop" />
       </div>
       <div className="switch">
         <Switch

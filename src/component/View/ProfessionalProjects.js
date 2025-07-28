@@ -1,72 +1,72 @@
 import React from "react";
-import linx from "../../img/linxp.png";
-import driver from "../../img/Driver.png";
+import linx from "../../img/bankit.png";
+import driver from "../../img/stakestack.png";
 import fleet from "../../img/FleetManager.png";
-import rider from "../../img/cueRIder.png";
-import driverr from "../../img/cueDriver.png";
+import rider from "../../img/hermoney.png";
+import driverr from "../../img/sme.png";
 import { Flip } from "react-reveal";
-import digits from "../../img/digit.png";
+import digits from "../../img/mhino.png";
 
 // import "./style.css";
 // import "./style.module.css";
-const ProfessionalProjects = props => {
+const ProfessionalProjects = (props) => {
   const projects = [
     {
-      name: "Cue Driver",
-      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
-      id: "4",
-      img: driverr,
-      link: "https://apps.apple.com/ng/app/cue-driver/id6446055971",
-    },
-    {
-      name: "Cue Rider",
-      des: "Cue is your ultimate ride-hailing solution, offering you a seamless and secure way to get around town. With a strong focus on safety, our top-notch features ensure that you can enjoy a worry-free ride every time",
-      id: "5",
-      img: rider,
-      link: "https://apps.apple.com/us/app/cue-rider/id6446066197",
-    },
-    {
-      name: "Linx Platform",
-      des: "Linx offers business owners a full range of operations and marketing services to help reach more customers, improve efficiency, and increase revenue",
+      name: "My SME App",
+      des: "mySME App from Ecobank is your one-stop digital platform for all your business needs. It enables your business send and receive payments quickly and securely. You can now complete business and banking transactions at your fingertips",
       id: "1",
+      img: driverr,
+      link: "https://apps.apple.com/us/app/my-sme-app/id6449704155",
+    },
+    {
+      name: "Hermoney",
+      des: "HerMoney partners with your employers to give you access to financial services and benefits that help you build financial resilience while living your best life.",
+      id: "2",
+      img: rider,
+      link: "https://apps.apple.com/ng/app/hermoney-mfb/id6741193668",
+    },
+    {
+      name: "Bankit",
+      des: "Say goodbye to traditional banking and hello to a smarter, more exciting way to manage your money! With Bankit, every step of your financial journey becomes an opportunity to grow, learn, and thrive. From sending money in seconds to managing your bills with ease, Bankit is the ultimate financial companion designed to help you stay in control and ahead of the game",
+      id: "3",
       img: linx,
-      link: "https://linxplatform.com/",
+      link: "https://play.google.com/store/apps/details?id=com.bankitmfbapp.app&pcampaignid=web_share&pli=1",
     },
     {
-      name: "ITranxit Driver",
-      des: "The platform offers tailored logistics solutions to meet diverse business needs. Whether it is last-mile delivery, or warehousing,  Itranxit offers flexible options that align with specific requirements",
-      id: "3",
+      name: "StakeStack AI",
+      des: "From onboarding to assessments, stakestack has seamlessly integrated all the tools you need to to design, customize, and launch impactful learning experiences.",
+      id: "4",
       img: driver,
-      link: " https://driver.itranxit.com/",
+      link: " https://stakestackai.com/",
     },
     {
-      name: "ITranxit Vendors Dashboard",
+      name: "ITranxit",
       des: "The platform offers tailored logistics solutions to meet diverse business needs. Whether it is last-mile delivery, or warehousing,  Itranxit offers flexible options that align with specific requirementsS",
-      id: "3",
+      id: "5",
       img: fleet,
       link: "https://fleet-itranxit.vercel.app/",
     },
     {
-      name: "Digits Admin",
-      des: "This is an administrative platform that serves as the backend system for both Flip, an e-commerce website, and Cue, a ride-hailing app. This platform is responsible for overseeing and managing a wide range of activities, including user administration, product and service management, order tracking, ride monitoring, driver oversight, and global settings.",
-      id: "32",
+      name: "Mhino",
+      des: "Access quality healthcare without financial strain. With Mhino, you can pay for health insurance in small, flexible amounts—ensuring you and your loved ones are always covered.",
+      id: "6",
       img: digits,
-      link: "",
+      link: "https://www.mhino.com/",
     },
   ];
   return (
     <div className="proProjects" id="work">
       <div className="text"> Projects</div>
       <div className="proProjectContainer">
-        {projects?.map(pro => (
-          <Flip bottom>
+        {projects?.map((pro, index) => (
+          <Flip bottom key={`${pro.id}-${index}`}>
             <div
               className={`${
                 props.dark ? "proProjectCardDark" : "proProjectCard"
               }`}
             >
               <div className="projectImageDiv">
-                <img src={pro.img} className="projectImage" />
+                <img src={pro.img} className="projectImage" alt={pro.name} />
               </div>
 
               <div className="flex">

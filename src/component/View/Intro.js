@@ -1,9 +1,8 @@
 import React from "react";
-// import "./style.module.css";
-import vector from "../../img/newBack.svg";
+
 import { Roll, Slide, Fade } from "react-reveal";
 
-const Intro = props => {
+const Intro = (props) => {
   return (
     <div className="intro">
       <Fade top>
@@ -11,12 +10,12 @@ const Intro = props => {
       </Fade>
       <Slide left>
         <div className="introDes">
-          A frontend developer with experience in React and React Native.
+          A frontend developer with experience in Vue, React and React Native.
         </div>{" "}
       </Slide>
       <Slide right>
         <div className="description">
-          I write high-quality, scalable and maintainable codes
+          Crafting Clean Code & Sleek Interfaces
         </div>
       </Slide>
       <Roll>

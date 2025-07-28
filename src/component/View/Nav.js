@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const Nav = props => {
+const Nav = (props) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const handleToggle = () => {
-    setNavbarOpen(prev => !prev);
+    setNavbarOpen((prev) => !prev);
   };
   return (
     <div
@@ -30,10 +30,7 @@ const Nav = props => {
         </li>
 
         <li>
-          <a
-            href="https://docs.google.com/document/d/1Y1IKYgXyP1NIM_OrWM5EZBZQvjoqhdaMvSvYUENzRBM/edit?usp=sharing"
-            target="_blank"
-          >
+          <a href="https://docs.google.com/document/d/1Y1IKYgXyP1NIM_OrWM5EZBZQvjoqhdaMvSvYUENzRBM/edit?usp=sharing">
             Resume
           </a>
         </li>
