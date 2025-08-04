@@ -10,12 +10,14 @@ const Intro = (props) => {
       </Fade>
       <Slide left>
         <div className="introDes">
-          A frontend developer with experience in Vue, React and React Native.
+          Frontend developer passionate about building clear, user-focused
+          interfaces.
         </div>{" "}
       </Slide>
       <Slide right>
         <div className="description">
-          Crafting Clean Code & Sleek Interfaces
+          I’m driven by impact, collaboration, and turning complex ideas into
+          simple, meaningful experiences
         </div>
       </Slide>
       <Roll>

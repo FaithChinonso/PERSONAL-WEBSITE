@@ -2,10 +2,11 @@ import React from "react";
 // import "./style.css";
 // import "./style.module.css";
 
-const Footer = props => {
+const Footer = (props) => {
+  const year = new Date().getFullYear();
   return (
     <div className="footer">
-      <div>Copyright @ 2022 Faith Umunnakwe </div>
+      <div>Copyright @{year} Faith Umunnakwe </div>
       <ul>
         <li>
           <a
